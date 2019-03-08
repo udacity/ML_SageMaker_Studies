@@ -1,6 +1,6 @@
 # Plagiarism Project, Machine Learning Deployment
 
-This repository contains code and associated files for deploying a plaiarism detector using AWS SageMaker.
+This repository contains code and associated files for deploying a plagiarism detector using AWS SageMaker.
 
 ## Project Overview
 
