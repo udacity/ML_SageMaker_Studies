@@ -29,7 +29,9 @@ def model_fn(model_dir):
 
     # Determine the device and construct the model.
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = SimpleNet(model_info['input_size'], model_info['output_size'])
+    model = SimpleNet(model_info['input_dim'], 
+                      model_info['hidden_dim'], 
+                      model_info['output_dim'])
 
     # Load the stored model parameters.
     model_path = os.path.join(model_dir, 'model.pth')
@@ -124,7 +126,7 @@ if __name__ == '__main__':
     parser.add_argument('--hosts', type=list, default=json.loads(os.environ['SM_HOSTS']))
     parser.add_argument('--current-host', type=str, default=os.environ['SM_CURRENT_HOST'])
     parser.add_argument('--model-dir', type=str, default=os.environ['SM_MODEL_DIR'])
-    parser.add_argument('--data-dir', type=str, default=os.environ['SM_CHANNEL_TRAINING'])
+    parser.add_argument('--data-dir', type=str, default=os.environ['SM_CHANNEL_TRAIN'])
     
     # Training Parameters, given
     parser.add_argument('--batch-size', type=int, default=64, metavar='N',
@@ -167,8 +169,6 @@ if __name__ == '__main__':
 
     
     # Trains the model (given line of code, which calls the above training function)
-    train(model, train_loader, args.epochs, criterion, optimizer, device)
-    
-    # Save the model state dictionary
-    save_model(model, args.model_dir)
+    # This function *also* saves the model state dictionary
+    train(model, train_loader, args.epochs, optimizer, criterion, device)
     
