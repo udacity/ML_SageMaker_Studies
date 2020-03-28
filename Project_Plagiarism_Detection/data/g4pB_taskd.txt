@@ -1,0 +1,15 @@
+In probability theory, Bayes' theorem (or Bayes' law after Rev Thomas Bayes) provides relation between the conditional and marginal probabilities of two random events. It is usually used to calculate posterior probabilities given observations. For example: a patient might be observed to show certain symptoms. Bayes' theorem could be used to compute the probability that a certain diagnosis is right, given that observation.
+
+Since it is a formal theorem, Bayes' theorem holds in all popular interpretations of probability. 
+Bayes' theorem relates the conditional and marginal probabilities of events a and b, where b has a non-vanishing probability:
+
+    P(a|b) = P(a|b)P(a)/P(b)
+
+Terms in Bayes' theorem are named by a convention:
+
+P(A) is the prior probability or marginal probability of A. It does not take into account any information about B and therefore is considered “prior”.
+P(A|B) is the conditional probability of A, given B. It it is derived from or depends upon the specified value of B. Usually it is called the posterior probability 
+P(B|A) is the conditional probability of B given A.
+P(B) (a.k.a. the normalizing constant) is the prior or marginal probability of B.
+
+Obviously, Bayes' theorem describes the way in which one's assumptions about observing the event'a' are changed by having observed the event 'b'.

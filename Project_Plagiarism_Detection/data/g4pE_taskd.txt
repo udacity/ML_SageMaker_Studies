@@ -1,0 +1,23 @@
+"Bayes' Theorem" or "Bayes' Rule", or something called Bayesian reasoning
+The Bayesian Conspiracy is a multinational, interdisciplinary, and shadowy group of scientists that controls publication, grants, tenure, and the illicit traffic in grad students.  The best way to be accepted into the Bayesian Conspiracy is to join the Campus Crusade for Bayes in high school or college, and gradually work your way up to the inner circles. . 
+Bayes' Theorem
+  	 
+
+Let  and  be sets. Conditional probability requires that 
+ 	(1) 
+where  denotes intersection ("and"), and also that 
+ 	(2) 
+Therefore, 
+ 	(3) 
+Now, let 
+ 	(4) 
+so  is an event in  and  for  , then 
+ 	(5) 
+ 	(6) 
+But this can be written 
+ 	(7) 
+so 
+ 
+
+
+This paper proposes a new measure called scaled inverse document frequency (SIDF) which evaluates the conditional specificity of query terms over a subset S of D and without making any assumption about term independence. S can be estimated from search results, OR searches, or computed from inverted index data. We have evaluated SIDF values from commercial search engines by submitting queries relevant to the financial investment domain. Results compare favorably across search engines and queries. Our approach has practical applications for `real-world’ scenarios like in Web Mining, Homeland Security, and keyword-driven marketing research scenarios. 

@@ -1,0 +1,5 @@
+Inheritance in object oriented programming is a way to form new classes using classes that have already been defined. The new classes, known as derived classes, inherit attributes and behaviour of the existing classes, which are referred to as base classes. With little or no modification, it is intended to help reuse existing code. It is typically accomplished either by overriding one or more methods exposed by ancestor, or by adding new methods to those exposed by an ancestor
+
+Inheritance is also sometimes called generalization, because there is-a relationships represent a hierarchy between classes of objects. A ‘fruit’, for instance, is a generalization of "orange", "mango", "apples" and many others. One can consider fruit to be an abstraction of apple, orange, etc. Since apples are fruit (i.e., an apple is-a fruit), conversely apples may naturally inherit all the properties common to all fruit, such as being a fleshy container for the seed of a plant.
+
+An advantage of inheritance is that modules with sufficiently similar interfaces can share a lot of code reducing the complexity of the program. 

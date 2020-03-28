@@ -1,0 +1,9 @@
+In the vector space model (VSM), documents take the form of "bags of words" - a standard information retrieval approach which represents documents as in a mathematical "bag" structure, recording what terms are present and how often they occur. 
+
+The vector space model is used in information retrieval to determine how similar documents are to one another, and how similar documents are to a search query. 
+
+In a collection of documents, each document can be viewed as a vector of n values (the terms in the document), where each term is an axis. Queries can also be represented as vectors on this vector space model, and so deciding which document matches the query the closest becomes a matter of selecting the document vector which is nearest to the query vector. 
+
+The query vector is compared to each document vector in turn using a "vector similarity measure", which is the cosine of the angle between the query vector and the document vector. 
+
+This equation is calculated by dividing the dot product of the query vector and the document vector by the modulus of the query vector multiplied by the modulus of the document vector. The denominator takes into account differences in the length of the vector, and has the effect of "normalising" the length. Whichever document returns the highest cosine similarity score is considered to be the closest matching document to the query. 

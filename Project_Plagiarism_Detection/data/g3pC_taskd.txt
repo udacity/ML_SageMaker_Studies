@@ -1,0 +1,13 @@
+In probability theory, the prior and conditional probabilities
+of two random events are related by Bayes' theorem. The theorem is
+often used when we have observations and wish to compute posterior
+probabilities.
+
+For example, given an observation that a patient is seen to have certain
+symptoms, we can use Bayes' theorem to compute the probability that a
+suggested diagnosis is correct.
+
+P(A) is the prior probability of A. P(A|B) is the conditional probabilty
+of A given B. P(B|A) is the conditional probabilty of B given A. P(B) is
+the prior probability of B, and must be non-zero. Bayes' theorem is given
+by P(A|B) = (P(B|A)P(A))/(P(B)).

@@ -1,0 +1,17 @@
+In probability theory; Bayes theorem (often called Bayes law after Rev
+Thomas Bayes) relates the conditional and marginal probabilities of
+two random events. It is used to compute posterior probabilities given
+observations. For example; a person may be observed to have certain
+symptoms. Bayes theorem can be used to compute the probability that a
+proposed diagnosis is correct.
+
+As a formal theorem Bayes theorem is valid in all common
+interpretations of probability. However, it plays a central role in
+the debate around the foundations of statistics: frequentist and
+Bayesian interpretations disagree about the ways in which
+probabilities should be assigned to each other. Bayesians describe
+probabilities in terms of beliefs and degrees of uncertainty, While
+frequentists assign probabilities to random events according to their
+frequencies of occurrence or to subsets of populations as proportions
+of the whole. The articles on Bayesian probability and frequentist
+probability discuss these debates in detail.

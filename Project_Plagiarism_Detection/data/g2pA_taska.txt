@@ -1,0 +1,10 @@
+Inheritance allows programs developed in an Object Orientated language to reuse code without having it replicated unnecessarily elsewhere within the program.
+
+To achieve this, the programmer has to note generalisations and similarities about various aspects of the program. 
+
+For example, a program could exist to model different forms of transport. At first glance, a car and a train may not have much in common. But abstractly, both will have a speed at which they are travelling, a direction, and a current position.
+Methods utilising this data can be specified high up in the inheritance hierarchy, for example in a ‘Transport’ class. For example you could have a method which works out the new position of a train after travelling x minutes in direction y. Likewise, you might want to be able to find out the same information for an object of the type car. 
+Inheritance means that if such a method was defined in the superclass of the train and car classes, any car or train object can utilise it. 
+
+The train and car subclasses are said to ‘extend’ the Transport class, as they will have additional characteristics which they don’t share. E.g. passenger capacity would be a class variable of both car and train (but have different values), and a train may have methods along the lines of ‘is toilet engaged’.
+If you then wanted to add additional forms of transport, such as an aeroplane, you may wish for that also to have a ‘toilet engaged’ function. Then you could have an extended hierarchy, where a Mass Transport class extends the Transport class. Under which you’d have a train and aeroplane, which would inherit characteristics from both super classes.

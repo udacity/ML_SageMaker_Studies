@@ -1,0 +1,28 @@
+In mathematics and computer science, dynamic programming is a method of solving problems that exhibit the properties of overlapping subproblems and optimal substructure.
+ 
+The word "programming" in "dynamic programming" has no particular connection to computer programming at all, and instead comes from the term "mathematical programming", a synonym for optimization. Programming, in this sense, means finding an acceptable plan of action, an algorithm.
+
+Optimal substructure means that optimal solutions of subproblems can be used to find the optimal solutions of the overall problem. In general, we can solve a problem with optimal substructure using a three-step process:
+
+   1. Break the problem into smaller subproblems.
+   2. Solve these problems optimally using this three-step process recursively.
+   3. Use these optimal solutions to construct an optimal solution for the original problem.
+
+The subproblems are, themselves, solved by dividing them into sub-subproblems, and so on, until we reach some simple case that is solvable in constant time.
+
+To say that a problem has overlapping subproblems is to say that the same subproblems are used to solve many different larger problems. For example, in the Fibonacci sequence, F3 = F1 + F2 and F4 = F2 + F3 — computing each number involves computing F2. Because both F3 and F4 are needed to compute F5, a naive approach to computing F5 may end up computing F2 twice or more. This applies whenever overlapping subproblems are present: a naive approach may waste time recomputing optimal solutions to subproblems it has already solved.
+
+In order to avoid this, we instead save the solutions to problems we have already solved. Then, if we need to solve the same problem later, we can retrieve and reuse our already-computed solution. If we are sure we won't need a particular solution anymore, we can throw it away to save space. In some cases, we can even compute the solutions to subproblems we know that we'll need in advance.
+
+dynamic programming makes use of:
+
+    Overlapping subproblems
+    Optimal substructure
+    Memoization
+
+Dynamic programming usually takes one of two approaches:
+
+    Top-down approach
+    Bottom-up approach
+
+

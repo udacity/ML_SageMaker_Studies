@@ -1,0 +1,20 @@
+The PageRank algorithm used by google harnesses the implicit collective
+intelligence present in the structure of the world wide web. Any page on
+the Internet will generally link to at least one other, by modelling this
+link structure as a graph, we can build up a symbolic representation of
+the world wide web.
+
+As the basic level, the nodes with the highest degrees can be considered
+the most "popular" and by inference the most important - which can be used
+to rank the pages when returning search results.
+
+Expanding on this theory, we can then say that the links from an important
+pages are themselves more important. Using this idea we can adjust the
+rankings of our pages so that pages linked to be the most important pages
+are considered more relevant.
+
+The actual Google PageRank algorithm is much more complex than this, but
+follows the same underlying principles. It incorporates some more advanced
+reasoning to avoid website creators exploiting their knowledge of the algorithm
+to artificially increase their PageRank through use of web-rings and other
+similar reciprocal hyperlinking schemes.

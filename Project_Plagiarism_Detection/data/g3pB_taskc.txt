@@ -1,0 +1,7 @@
+There are a large number of models used in solving the problem of Information Retrieval and they are all based on one of three mathematical bases: set theory, algebra and probabilistic.  The vector space model is one of these methods, and it is an algebraic model.
+
+In the vector space model a document is represented as a vector.  Within this vector, each dimension corresponds to a separate term (where a term is typically a single word, keyword or phrase.)  If the term doesn’t occur within the document, the value in the vector is zero.  If a term occurs in the document, its value is non-zero.
+
+To calculate how relevant each document is in a keyword search the cosine value of the angle between the vectors is easier to calculate instead of the actual angle.
+
+The vector space model, however, is not without its limitations: they have small similarity values, long documents are poorly represented; the order of words does not matter; false positive matches may be brought about by terms contained within words themselves; and documents that should match but use different semantics may return false negative matches.   There are a number of other models that are based on or extend the vector space model, and these are designed to try to eradicate these problems.

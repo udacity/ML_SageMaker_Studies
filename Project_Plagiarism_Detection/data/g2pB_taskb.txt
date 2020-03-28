@@ -1,0 +1,9 @@
+The first thing to consider when talking about Google’s PageRank algorithm, is that a PageRank is essentially how important that web page is to the internet. So in essence it is a popularity contest between WebPages.
+
+Originally search engines used highest keyword density, however this could be abused if keyword spamming was implemented. Instead Google uses a system that is based on sites linking to each other, e.g. the more important a site is that is linked to yours the higher your site will become. 
+
+The algorithm Google actually users is based on 4 factors, total number of pages, dampening factor, PageRank of a single page and the number of outbound links. A dampening factor is used to counter random surfers, who get bored and then switch to other pages. This formula is then re-used until the results seem to converge together, to find the PageRank, so it is calculated iteratively.
+
+PageRank is used by Google to measure a popularity of the site and a number between 0-10 is assigned to each webpage depending on their PageRank. This allows Google to calculate a marketing value for different WebPages.
+
+Also it should be noted that the PageRank is periodically updated every 3 to 6 months, this is counter hackers influence on different PageRanks.

@@ -1,0 +1,15 @@
+Dynamic Programming is an algorithm design technique used for optimisation problems, such as minimising or maximising. Like divide and conquer, Dynamic Programming solves problems by combining solutions to sub-problems. However, unlike divide and conquer, sub-problems are not always independent as sub-problems may share sub-sub-problems but solution to one sub-problem may not affect the solutions to other sub-problems of the same problem.
+
+There are four steps in Dynamic Programming:
+
+1. Characterise structure of an optimal solution.
+
+2. Define value of optimal solution recursively.
+
+3. Compute optimal solution values either top-down with caching or bottom-up in a table.
+
+4. Construct an optimal solution from computed values.
+
+An example of the type of problem for which Dynamic Programming may be used is: given two sequences, X=(x1,...,xm) and Y=(y1,...,yn) find a common subsequence whose length is maximum.
+
+Dynamic Programming reduces computation by solving sub-problems in a bottom-up fashion and by storing solution to a sub-problem the first time it is solved. Also, looking up the solution when a sub-problem is encountered again helps reduce computation. However, the key in Dynamic Programming is to determine the structure of optimal solutions. 

@@ -1,0 +1,13 @@
+In computer science and mathematics, dynamic programming
+is a method of problem solving that utilises the properties
+of overlapping subproblems and optimal substructure. And thus
+the method takes much less time than more naive methods.
+
+In "dynamic programming", the word "programming" has no
+real connection to computer programming at all, it actually
+comes from the term "mathematical programming",
+a synonym for optimisation. Thus, the "program" is the optimal
+plan of action that is being produced. For example, a
+schedule of events at an exhibition is sometimes called a
+programme. Programming, in this sense, means finding an
+acceptable plan, an algorithm.

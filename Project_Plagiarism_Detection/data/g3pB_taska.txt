@@ -1,0 +1,7 @@
+Inheritance is a concept in Object Oriented programming where a child- or sub-class inherits characteristics from a parent- or super-class.  The concept takes its name from genetic inheritance where a child can inherit genetic characteristics from its parents.
+
+Inheritance, at its simplest, allows programmers to model a relationship where one object is a kind of another.  For instance two classes, one representing an undergraduate student and another representing a post-graduate student could both be said to belong to a more generalised class representing all students.  Similarly, we could say that dogs and cats are two kinds of animal, or that bridges and skyscrapers are two types of man-made structure.
+
+Subclasses are said to extend or specialise their superclasses.  Attributes (variables) and behaviours (functions) that are common between classes can be included in the definition of the superclass, leaving the subclass definitions containing only the attributes and behaviours that are unique to that class.
+
+Inheritance can be used to create a multiple level architecture of classes.  In such an architecture even the bottom-most subclasses inherit all of the attributes and behaviours that are defined in the very top-most superclasses.  This can save the programmer time because it renders unnecessary a lot of code duplication.

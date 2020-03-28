@@ -1,0 +1,6 @@
+Since the develop of the Web 2.0, Google as one of the most popular search engine in the world,  there are many algorithms in the web search. Accordingly, implementations of link analysis algorithms will typical discount such “internal” links. The word computer can be exploited by web search engines such as Google. Thus, the web is just like a graph, and the PageRank, which is our first technique for analysing the link which is  assigns to every node in
+the web graph a numerical score between 0 and 1. Since the PageRank is the most important algorithms which is used in the Google engine. For example, there are four pages group: A, B, C and D. If every page link to A, then  A’s PageRank value shoule be the total value of  B, C and D .
+PR(A) = PR(B) + PR(C) + PR(D)
+Moreover, there is a q = 0.15 which is be use in the web page, like the general algorithm below:
+ 
+However, the disadvantage is of PageRank algorithm is that the renew system is too slow.

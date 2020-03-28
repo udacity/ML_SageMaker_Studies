@@ -1,0 +1,3 @@
+PageRank algorithm is patented by Stanford University. It is a link analysis algorithm employed by the Google Internet search engine that assigns a value used to measure the importance to each element of a hyperlinked set of documents, such as the WWW, with the purpose of ” measuring" its relative significance within the set.
+
+Google owns exclusive license rights on the patent from Stanford University. The University received 1.8 million shares in Google in return for use of the patent. 

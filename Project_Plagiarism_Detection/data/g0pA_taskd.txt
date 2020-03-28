@@ -1,0 +1,21 @@
+Bayes’ theorem was names after Rev Thomas Bayes and is a method used
+in probability theory. This theorem aims to relate the conditional and
+marginal probabilities of two random events occuring, and given
+various observations is frequently used to compute subsequent
+probabilities. Bayes’ theorem is also often known as Bayes’ law.
+
+An example of where Bayes’ theorem may be used is in the following
+extract: “Suppose there exists a school with forty percent females and
+sixty percent males as students. The female students can only wear
+skirts or trousers in equal numbers whereas all the male students can
+only wear trousers. An observer randomly sees a student from a
+distance and all he can see is that this student is wearing
+trousers. What is the probability this student is female?”
+
+There is a debate amongst frequentists and Bayesians about how Bayes’
+theorem plays a major role around the beginnings of statistical
+mathematics. Frequentist and Bayesian explanations do not agree about
+the ways in which probabilities should be assigned. This is primarily
+because Bayesians assign probabilities in terms of beliefs whereas
+frequentists assign probabilities to random events according to the
+frequencies of them occurring.

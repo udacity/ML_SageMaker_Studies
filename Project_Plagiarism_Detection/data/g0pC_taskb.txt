@@ -1,0 +1,5 @@
+There are many attributes which infulance the ranking of a page in google, The main too are the content, key words, and links. The content of a webpage generaly gives a good idea about what the page is about, however, there are some flaws in this, for example, for along time ibm web page didnt contain the word computer dispite it being strongly associated with them. To solve this problem, web pages can assign itself key words, which contribute to its ranking in searches.
+
+The second method is the use of links. the more sights which links to your web page and the higher the rank of those sights, the higher the rank of your site will be. This method is used as links are seen as an adoursment of a sight.
+
+With both these methods of ranking web pages, there are issues. key words can be compromised by sparming, google solves this problem by penolizing such activity. Useing links to rank a page also has its problems, for example, link farms which have recursive links, for the sole perpos of raising there ranking, google takels this by useing a dampaning algorthem. 

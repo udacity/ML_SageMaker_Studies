@@ -1,0 +1,11 @@
+Vector space model, or term vector model as it is also known, is an algebraic model for representing objects (although it is mainly used for text documents) as vectors of identifiers; for example, index terms. It is used in information retrieval and filtering, indexing and relevancy rankings, and was first used in the SMART Information Retrieval System.
+
+A document is represented as a vector, with each dimension corresponding to a separate term. If a term occurs in the document, the value will be non-zero in the vector. Many different ways of computing these values (aka (term) weights) have been developed; one of the best known schemes is tf-idf weighting.
+
+The way that a 'term' is defined depends on the application. Typically, terms are single words, keywords, or sometimes even longer phrases. If the words are chosen as the terms, the number of dimensions in the vector is the number of distinct words in the corpus.
+
+Relevancy ranks for documents, in a keyword search, can be calculated; this uses the assumptions of document similarities theory, by comparing the difference of angles between each document vector and the original query vector, where the query is represented as same format vector as the documents.
+
+Generally, it is easier to calculate the cosine of the angle between the vectors instead of the angle itself. A zero value for the cosine indicates that the query and document vector are orthogonal and so had no match; this means the query term did not exist in the document being considered.
+
+However, the vector space model has limitations. Long documents are poorly represented due to their poor similarity values (a small scalar product and a large dimensionality); search keywords must match precisely the document terms; word substrings might result in a "false positive match"; similar context documents but different term vocabulary won't be associated, leading to a "false negative match"; and the order that the terms appear in the document is not represented in the vector space model.

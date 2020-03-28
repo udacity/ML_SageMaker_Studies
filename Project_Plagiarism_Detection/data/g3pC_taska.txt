@@ -1,0 +1,15 @@
+In object-oriented programming, inheritance is a way to form new classes
+(instances of which are called objects) using classes that have already
+been defined.
+
+Inheritance is also sometimes called generalization, because the is-a
+relationships represent a hierarchy between classes of objects. For
+instance, a "fruit" is a generalization of "apple", "orange", "mango"
+and many others. One can consider fruit to be an abstraction of apple,
+orange, etc. Conversely, since apples are fruit (i.e., an apple is-a
+fruit), apples may naturally inherit all the properties common to all
+ruit, such as being a fleshy container for the seed of a plant.
+
+Inheritance is typically accomplished either by overriding (replacing)
+one or more methods exposed by ancestor, or by adding new methods to
+those exposed by an ancestor.

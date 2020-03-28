@@ -1,0 +1,1 @@
+Baye’s theorm in connection with conditional probabilities is of fundamental importance, since it permits a calculation of PROB(AB) from PROB(BA). Statistical information that is often gathered in great volume can therefore be avoided 

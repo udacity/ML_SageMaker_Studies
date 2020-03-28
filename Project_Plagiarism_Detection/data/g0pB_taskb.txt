@@ -1,0 +1,26 @@
+PageRank (PR) refers to both the concept and the Google system used
+for ranking the importance of pages on the web. The “PageRank” of a
+site refers to its importance or value on the web in relation to the
+rest of the sites that have been “PageRank”ed.
+
+The algorithm basically works like a popularity contest – if your site
+is linked to by popular websites, then your site is considered more
+popular. However, the PR doesn't just apply to the website as a whole
+– different pages within a website get given different PRs dependent
+on a number of factors:
+
+* Inbound links (backlinks) – how many pages (other than the ones on your website) link to this particular page
+
+* Outbound links (forward links) – how many external pages the particular page links to
+
+* Dangling links – how many pages with no external links are linked to from a particular page
+
+* Deep links – how many links that are not the home page are linked to from a particular page
+
+PR tries to emulate a “random surfer”. The algorithm includes a
+dampening factor, which is the probability that a random surfer will
+get bored and go and visit a new page - by default, this is 0.85. A
+variation on this is the “intentional surfer”, where the importance of
+a page is based on the actual visits to sites by users. This method is
+used in the Google Toolbar, which reports back actual site visits to
+Google.

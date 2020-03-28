@@ -1,0 +1,5 @@
+Bayes' theorem (often called Bayes' law) connects the conditional and marginal probabilities of two arbitrary events. One of its uses is calculating posterior probabilities given observations. 
+
+Bayes' theorem plays a key role in the debate around the principles of statistics: frequentist and Bayesian interpretations disagree about the ways in which probabilities should be assigned in applications. 
+
+Bayes' theorem is useful in evaluating the result of drug tests.  If a test can identify a drug user 99% of the time, and can identify a non-user as testing negative 99% of the time, it may seem to be a relatively accurate test.  However, Bayes' theorem will reveal the flaw that despite the apparently high accuracy of the test, the probability that an employee who tested positive actually did use drugs is only about 33%.

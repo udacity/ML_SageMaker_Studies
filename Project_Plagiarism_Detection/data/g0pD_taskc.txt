@@ -1,0 +1,5 @@
+An algebraic model for representing text documents and any objects in general is known by the name Vector space model. It represents these as vectors of identifiers, index terms are one illustration of these. The Vector Space model was first used in the SMART Information Retrieval System, and it is utilised variously in indexing, information filtering, indexing and information retrieval.
+
+A document has representation as a vector. Every dimension is precisely related to a separate term. The way in which term is defined depends entirely on the application: typically ‘terms’ are either single words, keywords or longer phrases. The dimensionality of the vector is the number of words in the vocabulary, if it is the words that are chose to be the terms. So the same rule applies with keywords and indeed longer phrases.
+
+If a term occurs in the document, its value in the vector is non-zero. Several different ways of computing these values, additionally known as (term) weights, have been developed. One of the most famous schemes is tf-idf weighting. 

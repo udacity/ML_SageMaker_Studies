@@ -1,0 +1,22 @@
+Inheritance is a basic concept of Object-Oriented Programming where
+the basic idea is to create new classes that add extra detail to
+existing classes. This is done by allowing the new classes to reuse
+the methods and variables of the existing classes and new methods and
+classes are added to specialise the new class. Inheritance models the
+“is-kind-of” relationship between entities (or objects), for example,
+postgraduates and undergraduates are both kinds of student. This kind
+of relationship can be visualised as a tree structure, where ‘student’
+would be the more general root node and both ‘postgraduate’ and
+‘undergraduate’ would be more specialised extensions of the ‘student’
+node (or the child nodes). In this relationship ‘student’ would be
+known as the superclass or parent class whereas, ‘postgraduate’ would
+be known as the subclass or child class because the ‘postgraduate’
+class extends the ‘student’ class.
+
+Inheritance can occur on several layers, where if visualised would
+display a larger tree structure. For example, we could further extend
+the ‘postgraduate’ node by adding two extra extended classes to it
+called, ‘MSc Student’ and ‘PhD Student’ as both these types of student
+are kinds of postgraduate student. This would mean that both the ‘MSc
+Student’ and ‘PhD Student’ classes would inherit methods and variables
+from both the ‘postgraduate’ and ‘student classes’.

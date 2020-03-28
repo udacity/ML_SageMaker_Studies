@@ -1,0 +1,9 @@
+ Dynamic programming is a method for efficiently solving a broad range of search and optimization problems which exhibit the characteristics of overlappling.  Dynamic programming. Design technique, like divide-and-conquer method.
+
+The leading and most up-to-date textbook on the far-ranging algorithmic methododogy of Dynamic Programming, which can be used for optimal control, ...
+The word Programming in the name has nothing to do with writing computer programs. Mathematicians use the word to describe a set of rules which anyone can follow to solve a problem. They do not have to be written in a computer language. 
+Dynamic programming was the brainchild of an American Mathematician, Richard Bellman, who described the way of solving problems where you need to find the best decisions one after another. In the forty-odd years since this development, the number of uses and applications of dynamic programming has increased enormously. 
+For example, in 1982 David Kohler used dynamic programming to analyse the best way to play the game of darts. 
+
+1.	   In recent years, dynamic programming languages develope very fastly, especially PHP and Ruby. There is no doubt that They have already became the first choice for many programmerers when developing web applications..When you learn a new natural language and you start to use it you naturally, you find yourself using new concepts and paradigms that enrich the use of the language you already know; expect the same result with computer languages.
+

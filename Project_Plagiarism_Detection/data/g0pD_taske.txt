@@ -1,0 +1,3 @@
+Dynamic programming (DP) is an extremely powerful, general tool for solving optimization difficulties on left-right-ordered item, for example character strings. It is similar to divide and conquer, however is differentiated as its subproblems are not independent. It is easily applicable, in relative terms, once understood. However until one has witnessed enough examples, it looks like magic.
+
+DP minimizes computation by solving subproblems from the base upwards, storing solution to a subproblem when it is initially conquered, and looking up the solution when the subproblem is experienced for a second time. 

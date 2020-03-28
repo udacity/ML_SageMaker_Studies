@@ -1,0 +1,5 @@
+Dynamic Programming (DP) is in basic terms an algorithm design technique that is used for optimization problems and often involves minimizing or maximizing. 
+Furthermore, by combining solutions to subproblems, DP solves problems. Subproblems may include and contain many other subsubproblems and even in such cases, the solution to one subproblem may not affect the solutions to other subproblems involved in the same problem. 
+By solving subproblems in a bottom-up fashion, which is basically when storing solution to a subproblem the first time it is solved and looking up to find the solution when a subproblem is come across once more,  this would cause DP to reduce computations.  
+The following is a generalization path to be taken in Dynamic Programming:
+Firstly it is needed to Characterize the structure of an optimal solution. Secondly to define the value of the optimal solution recursively. Furthermore, to compute the optimal solution values either by following a top-down method with caching, or a bottom-up method in a table. The last point would be to construct an optimal solution from the computed values.

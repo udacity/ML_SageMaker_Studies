@@ -1,0 +1,6 @@
+The vector space model is an algebraic model used to represent text documents (and any objects, generally) as vectors of identifiers, for instance index terms. Its applications include information filtering, information retrieval, indexing and relevancy rankings. With reference to this model, documents are represented as vectors. Each dimension corresponds to a separate term. The value of a vector is non-zero if a term occurs in the document. Several different ways have been developed of calculating these values (also known as term weights). One of the best known schemes is tf-idf (term frequency-inverse document frequency) weighting. 
+
+The model can be used to determine the relevancy rankings of documents in a keyword search, using the assumptions of document similarities theory, by comparing the original query vector (where the query is represented as same kind of vector as the documents) and the deviation of angles between each document vector.
+
+The classic vector space model was put forward by Salton, Wong and Yang and is known as term frequency-inverse document frequency model. In this classic model the term specific weights in the document vectors are products of local and global parameters. In a simpler Term Count Model the term specific weights are just the counts of term occurrences and therefore do not include the global parameter. 
+

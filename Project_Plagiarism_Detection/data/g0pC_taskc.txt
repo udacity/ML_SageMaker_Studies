@@ -1,0 +1,6 @@
+The vector space model is where each document is viewed as a bag of words, where there order has little significance. Each document is a vector where each word is a dimension. The vector is then constucted of the frequency of eacher word (dimension). The draw back to this approach is that the length of the document as an inpact on the vector, to compensate for this you can comput the cosine similarity between your two comparism documents. This will find the difference between the two vectors (the dot product), ignoreing the size of them.
+
+Inorder to query the search space, the query can also be represented as a vector, then you find the document whos vector has the greatest cosine similarities to your query. There are a number of wighting sceems which can be incoperated inorder to increase the accuracy of the vextors.
+
+There are some drawbacks with this approach, Computing the cosine similarities between each vector can be expensive as the number of dimensions can be in the thousands, To tackle this problem you can use inverted indexs and then a series heuristics inorder to inprove on this.
+to top

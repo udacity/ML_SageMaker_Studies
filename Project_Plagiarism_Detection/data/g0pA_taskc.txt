@@ -1,0 +1,7 @@
+The vector space model (also called, term vector model) is an algebraic model used to represent text documents, as well as any objects in general, as vectors of identifiers. It is used in information retrieval and was first used in the SMART Information Retrieval System.
+
+A document is represented as a vector and each dimension corresponds to a separate term. If a term appears in the document then its value in the vector is non-zero. Many different ways of calculating these values, also known as (term) weights, have been developed. One of the best known methods is called tf-idf weighting.
+
+The definition of term depends on the application but generally terms are single words, keywords, or longer phrases. If the words are chosen to be the terms, the dimensionality of the vector is the number of words in the vocabulary, which is the number of distinct words occurring in the corpus.
+
+The vector space model has several disadvantages. Firstly, long documents are represented badly because they have poor similarity values. Secondly, search keywords must accurately match document terms and substrings of words might result in a "false-positive match". Thirdly, documents with similar context but different term vocabulary will not be associated, resulting in a "false-negative match". Finally, the order in which the terms appear in the document is lost in the vector space representation. 

@@ -1,0 +1,33 @@
+Inheritance is a basic concept in object oriented programming. It models the reuse of existing class code in new classes – the “is a kind of” relationship.
+
+For example, a house is a kind of building; similarly, an office block is a kind of building. Both house and office block will inherit certain characteristics from buildings, but also have their own personal characteristics – a house may have a number of occupants, whereas an office block will have a number of offices. However, these personal characteristics don't apply to all types of buildings.
+
+In this example, the building would be considered the superclass – it contains general characteristics for other objects to inherit – and the house and office block are both subclasses – they are specific types and specialise the characteristics of the superclass.
+
+Java allows object inheritance. When one class inherits from another class, all the public variables and methods are available to the subclass.
+
+public class Shape {
+
+  private Color colour;
+
+  public void setColour(Color newColour){
+
+    colour = newColour;
+
+  }
+
+}
+
+public class Circle extends Shape {
+
+  private int radius;
+
+  public void setRadius(int newRadius){
+
+    radius = newRadius;
+
+  }
+
+}
+
+In this example, the Circle class is a subclass of the Shape class. The Shape class provides a public setColour method, which will be available to the Circle class and other subclasses of Shape. However, the private variable colour (as defined in the Shape class) will not be available for direct manipulation by the Circle class because it is not inherited. The Circle class specialises the Shape class, which means that setRadius is available to the Circle class and all subclasses of Circle, but it isn't available to the superclass Shape. 

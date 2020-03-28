@@ -1,0 +1,9 @@
+ Inheritance is an important feature in object orientated programming. This is because it allows new classes to be made that extend previous classes and to go into more detail. 
+
+This is carried out by allowing the new class to reuse the existing class methods and variables, whilst also creating class specific methods and variables. This means that the new class, the subclass, is a more specialised version of the original, or superclass.
+
+Because of this it means that the subclass can use all the public methods and variables from the superclass; however any private methods or variables are still private. 
+
+Also it should be noted that a class can only extend one class, e.g. can only be a subclass to one superclass. However a superclass can have more then one subclass and a class can both be a subclass and a superclass. If this occurs then all of the non-private methods and variables can be used by the most specialised class.
+
+This means that inheritance is used when types have common factors and these would be put into the superclass. Then the subclass/es then extend these to add more detail. An example of this could be using a superclass of employee and then to have two subclasses called fulltime and part time. As employee could have name, address and other details whilst full time could just have salary and part time could work out the salary from part time hours worked, as the full time members of staff wouldn’t need these.

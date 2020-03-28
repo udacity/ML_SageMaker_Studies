@@ -1,0 +1,16 @@
+In probability theory, Bayes' theorem relates the conditional and marginal probabilities of two random events. It is often used to compute posterior probabilities given observations.
+
+Bayes' theorem is expressed mathematically as:
+
+P(A|B) = (P(B|A)P(A))/P(B)
+
+where P(A|B) is the conditional probability of A given B, P(A) is the prior probability of A, P(B) is the prior probability of B, and P(B|A) is the conditional probability of B given A. 
+
+Bayes' theorem relates the conditional and marginal probabilities of two random events P(A) and P(B), and is valid in all common interpretations of probability. For example, in a school in made up of 3/5 boys and 2/5 girls, the girls wear skirts of trousers in equal numbers and the boys all wear trousers. If a student is observed from a distance wearing trousers, Bayes theorem can be used to determine the probability of this student being a girl. 
+
+P(A) is the probability of the student being a girl (which is 2/5). 
+P(B|A) is the probability of the student wearing trousers given that the student is a girl, which is 0.5 
+P(B) is the probability of a random student wearing trousers, which can be calculated as P(B) = P(B|A)P(A) + P(B|A')P(A') where ' denotes a complementary event, which is 0.8. 
+Therefore the probability using the formula is 0.25. 
+
+Bayes theorem is often used to compute posterior probabilities given observations, for instance the probability that a proposed medical diagnosis is correct, given certain observed symptoms. 

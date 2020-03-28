@@ -1,0 +1,26 @@
+Bayes' theorem relates the conditional and marginal probabilities of
+two random events. For example, a person may be seen to have certain
+medical symptoms; Bayes' theorem can then be used to compute the
+probability that, given that observation, the proposed diagnosis is
+the right one.
+
+Bayes' theorem forms a relationship between the probabilities xcof
+events A and B. Intuitively, Bayes' theorem in this form describes the
+way in which one's recognition of 'A' are updated by having observed
+'B'.
+
+P(A | B) = P(B | A) P(A) / P(B)
+
+P(A|B) is the conditional probability of A given B. It is derived from or depends upon the specified value of B, therefore it is also known as the posterior probability.
+
+P(B|A) is the conditional probability of B given A.
+
+P(A) is the prior probability A. It doesn't take into account any information about B, so it is "prior".
+
+P(B) is the prior or marginal probability of B, and acts to normalise the probability.
+
+To derive the theorem, we begin with the definition of conditional
+probability. By combining and re-arranging these two equations for A
+and B, we get a the lemma called product rule for
+probabilities. Provided that P(B) is not a zero, dividing both sides
+by P(B) renders us with Bayes' theorem.

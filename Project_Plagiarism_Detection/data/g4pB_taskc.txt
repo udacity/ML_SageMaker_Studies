@@ -1,0 +1,12 @@
+The vector space model (or term vector model) is an algebraic model for representing text documents (and any objects, in general) as vectors of identifiers, such as index terms. It is used in information filtering, information retrieval, indexing and relevancy rankings. It was used in the first time in the SMART Information Retrieval System.
+
+A document is represented as a vector. Each and every dimension corresponds to a separate term. If a term exists in a document, its value in the vector is not equal to zero. A couple of different algorithms of computing these values, also known as (term) weights, have been created. One of the most popular schemes is tf-idf weighting.
+
+The definition of term is dependent on the application. Typically terms are keywords, single words or longer phrases. Provided that words are selected to be the terms, the dimensionality of the vector is equal to the number of words in the vocabulary.
+
+
+It is easiest to calculate the cosinus of the angle between the vectors instead of the angle by the formula:
+
+    cos(theta)=v1.v2/(||v1||||v2||)
+
+A null cosinus value says that the query and document vector were orthogonal and had no match which means that no term of the query was ever encountered in the document.
