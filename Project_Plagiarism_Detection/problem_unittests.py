@@ -70,10 +70,11 @@ def test_containment(complete_df, containment_fn):
         results_3gram.append(val_3)
         
     # check correct results
-    assert all(np.isclose(results_1gram, ngram_1, rtol=1e-04)), \
+    print(results_1gram)
+    assert all(np.isclose(ngram_1, results_1gram, rtol=1e-04)), \
     'n=1 calculations are incorrect. Double check the intersection calculation.'
     # check correct results
-    assert all(np.isclose(results_3gram, ngram_3, rtol=1e-04)), \
+    assert all(np.isclose(ngram_3, results_3gram, rtol=1e-04)), \
     'n=3 calculations are incorrect.'
     
     _print_success_message()
@@ -103,6 +104,8 @@ def test_lcs(df, lcs_word):
     # known vals for first few files
     lcs_vals = [0.1917808219178082, 0.8207547169811321, 0.8464912280701754, 0.3160621761658031, 0.24257425742574257]
     
+ 
+    
     # results for comparison
     results = []
     
@@ -119,7 +122,7 @@ def test_lcs(df, lcs_word):
         results.append(val)
         
     # check correct results
-    assert all(np.isclose(results, lcs_vals, rtol=1e-05)), 'LCS calculations are incorrect.'
+    assert all(np.isclose(results, lcs_vals, rtol=1e-05)), 'LCS calculations are incorrect.' + str(results)
     
     _print_success_message()
     
